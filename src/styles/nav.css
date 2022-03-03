@@ -1,0 +1,139 @@
+
+  .navigation-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.04);
+    z-index: 100;
+    padding: 5px 20px;
+   width: 100%;
+  }
+
+  .navigation-header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navigation-button{
+    display: block;
+    margin: auto 10px;
+    
+  }
+    .navigation-names .logo{
+     display: block;
+     margin: auto;
+     
+    }
+
+    
+
+    .navigation-button button{
+      background: #243773;
+      border-radius: 10px;
+      outline: none;
+      width: 116px;
+      cursor: pointer;
+      height: 37px;
+      border: none;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+  .navigation-links .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    right: 1.5rem;
+    top: 20px;
+    cursor: pointer;
+
+  }
+  .navigation-links .mobile-menu:focus {
+ outline: none;
+  }
+
+  .navigation-links .mobile-menu .bar-one,
+  .bar-two,
+  .bar-three {
+    width: 2rem;
+    height: 0.25rem;
+    background: #333b54;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+
+  .navigation-links .mobile-menu  .bar-one {
+    transform: rotate(0);
+  }
+
+  .navigation-links .mobile-menu .bar-two {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .navigation-links .mobile-menu .bar-three {
+    transform: rotate(0);
+  }
+
+  .navigation-links  img{
+  display: block;
+  margin: auto 20px auto 0;
+  }
+
+  .open .bar-one {
+    transform: rotate(45deg);
+  }
+
+  .open .bar-two {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  .open .bar-three {
+    transform: rotate(-45deg);
+  }
+
+  .faq-lg-link{
+    display: block;
+    margin: auto 30px;
+    color: #212120;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  @media (min-width: 992px) { 
+    
+    .navigation-wrapper {
+      padding: 0 20px;
+
+    }
+
+
+    .navigation-button button{
+      width: 150px;
+      height: 48px;
+    }
+
+    .navigation-names .logo{
+      width: 200px;
+       
+     }
+
+   }
