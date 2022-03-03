@@ -487,7 +487,7 @@ return (
     fontSize: '16px',
     lineHeight: '19px',
     textAlign: 'center',
-color: '#424F65'}}>How it works</h2>
+color: '#424F65'}}>Reimagining car trading</h2>
   <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244422/carpadi-website/car_listing_x1qrfm.png"  headerText={carListingTitle} pText={carListingContent}/>
   <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/share_fyijba.png" headerText={shareTitle} pText={shareContent}/>
   <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/earn_fvgqal.png"  headerText={earnTitle} pText={earnContent}/>
@@ -603,12 +603,12 @@ color: '#424F65'}}>How it works</h2>
 
   <div style={{width: '100%', margin: '0 auto'}}>
   <h2 style={{fontWeight: '600',
-    textTransform: 'uppercase',
+    // textTransform: 'uppercase',
     margin: '40px 0 20px',
   fontSize: '28px',
   lineHeight: '33px',
   textAlign: 'center',
-color: '#424F65'}}>How it works</h2>
+color: '#424F65'}}>Reimagining car trading</h2>
 
 <Instruction 
 DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/desktop_car_listing_i10ikk.png" 
