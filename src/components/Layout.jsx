@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from "react-helmet"
 import * as styles from '../styles/global.module.css'
 import Navbar from './Navbar'

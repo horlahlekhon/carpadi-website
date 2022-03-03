@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {graphql} from 'gatsby';
 import styled from "styled-components"
 import Layout from "../components/Layout"

@@ -12,13 +12,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
-        ignore: [`**/\.*`], // ignore files starting with a dot
+        displayName: true,
+        disableVendorPrefixes: false,
       },
-    },
+    }, 
     {
       resolve: `gatsby-source-cloudinary`,
       options: {
