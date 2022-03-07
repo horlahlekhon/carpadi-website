@@ -248,7 +248,7 @@ export default function Footer() {
   <img className='footerlogo' src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/footer_logo_fbwr98.png" alt="carpadi logo"/>
   <div className="contact">
       <h6>Contact</h6>
-      <p><a href='mailto: support@capadi.com'>{email}</a></p>
+      <p><a href='mailto: yourpadi@carpadi.com'>{email}</a></p>
       <p>Phone: {phone}</p>
   </div>
   <div className="address">
@@ -298,7 +298,7 @@ export default function Footer() {
 <div className='contacts'>
   <div className="contact">
       <h6>Contact</h6>
-      <p><a href='mailto: support@capadi.com'>{email}</a></p>
+      <p><a href='mailto: yourpadi@carpadi.com'>{email}</a></p>
       <p>Phone: {phone}</p>
   </div>
   <div className="address">

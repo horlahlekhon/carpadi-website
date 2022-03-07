@@ -40,7 +40,7 @@ module.exports = {
     secureHeader: 'Your money is safe \n and secure',
     desktopSecureHeader: 'Your money is safe and secure',
     secureBody: 'We are dedicated to safeguarding your funds with \n the most sophisticated security measures available.',
-    email: 'support@capadi.com',
+    email: 'yourpadi@carpadi.com',
     phone: '07033794644',
     address: '54 community road\nAkoka Yaba, Lagos, Nigeria.',
     policy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat, nisl et fermentum rhoncus, massa tortor fermentum felis, vitae suscipit diam ligula quis nisl. Nam commodo dignissim velit, ut viverra odio auctor sed. Etiam at arcu magna. Donec pharetra orci ante, vel porta purus semper non. Quisque fringilla metus dictum ante aliquam semper. Ut tincidunt maximus sapien, et malesuada tortor pharetra nec. Aliquam elementum nunc nisi, scelerisque auctor diam dapibus et. Nunc odio justo, euismod at ante at, scelerisque porttitor lectus. Phasellus non mauris purus. Praesent auctor.',
