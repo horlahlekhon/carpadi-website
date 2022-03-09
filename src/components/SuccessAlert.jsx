@@ -77,10 +77,10 @@ export default function SuccessAlert({closeAlert}) {
     <Section>
        <AlertDiv>
  <div className='close-icon-div'>
-    <button onClick={() => closeAlert()}><img src="https://res.cloudinary.com/grootretro/image/upload/v1646258308/black_close_button_gx1tyz.png" alt="close icon" /></button>
+    <button onClick={() => closeAlert()}><img src="https://res.cloudinary.com/grootretro/image/upload/v1646258308/carpadi-website/black_close_button_gx1tyz.png" alt="close icon" /></button>
     </div>
     <div className='success-message'>
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244421/carpadi-website/bell_icon_g2zuuy.png" alt="bell icon"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/w_70,h_81/v1646753364/carpadi-website/bell_icon_nsqhqr.png" alt="bell icon"/>
     <h2>Wait list Joined <br />
 Successfully</h2>
 <p>You will receive a download link <br />

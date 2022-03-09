@@ -37,8 +37,8 @@ function Navbar() {
             <div className="navigation-header">
               <span className="navigation-names">
                 <Anchor className="link" to="/">
-                  <img className="logo d-block d-lg-none" src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/nav_logo_lbuvta.png" alt="carpadi_logo"></img>
-                  <img className="logo d-none d-lg-block" src="https://res.cloudinary.com/grootretro/image/upload/v1646244423/carpadi-website/desktop_nav_logo_kb5jpd.png" alt="carpadi_logo"></img>
+                  <img className="logo d-block d-lg-none" src="https://res.cloudinary.com/grootretro/image/upload/w_123,h_46/v1646753364/carpadi-website/carpadi_logo_rokoey.png" alt="carpadi_logo"></img>
+                  <img className="logo d-none d-lg-block" src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/carpadi_logo_rokoey.svg" alt="carpadi_logo"></img>
                 </Anchor>
               </span>
             <div style={{display: 'flex'}}>
@@ -58,7 +58,7 @@ function Navbar() {
                     setMobileNavOpen((mobileNavOpen) => !mobileNavOpen);
                   }}
                 >
-                  <img src={mobileNavOpen === true ? "https://res.cloudinary.com/grootretro/image/upload/v1646244422/carpadi-website/close_icon_wqjrhy.png" : "https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/toggle-icon_g482rb.png"} alt="toggle icon" />
+                  <img src={mobileNavOpen === true ? "https://res.cloudinary.com/grootretro/image/upload/v1646244422/carpadi-website/close_icon_wqjrhy.png" : "https://res.cloudinary.com/grootretro/image/upload/v1646751540/carpadi-website/toggle-icon_bftxlv.png"} alt="toggle icon" />
                 </button>
               </span>
               </div>

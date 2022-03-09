@@ -10,7 +10,7 @@ padding: 0 0 0 20px;
 margin: 50px auto;
 width: 90%;
 height: 505px;
-background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646244421/carpadi-website/bent_iphone_pyyj13.png');
+background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646830147/carpadi-website/bent_iphone_qhpws8.png');
 background-repeat: no-repeat;
 background-position: right top;
 
@@ -92,7 +92,7 @@ cursor: pointer;
   width: 90%;
   height: 378px;
   margin: 50px auto;
-  background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646244423/carpadi-website/desktop_bent_iphone_ob1qsw.png');
+  background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646830149/carpadi-website/desktop_bent_iphone_sh2bcg.png');
 
 
   .waitlist-main{
@@ -165,7 +165,7 @@ function Waitlist({handleClick}) {
 
 <div className='waitlist-main'>
 <div className='waitlist-info'>
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/message-icon_rnnjj2.png" alt="message" />
+ <img src="https://res.cloudinary.com/grootretro/image/upload/w_55,h_57/v1646753369/carpadi-website/message-icon_yzemgw.png" alt="message" />
  <h2>Join Our Waitlist</h2>
  <p>Get informed once we’re live</p>
 </div>

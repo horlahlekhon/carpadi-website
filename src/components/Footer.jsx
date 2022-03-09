@@ -23,18 +23,14 @@ color: #FFFFFF;
   }
 
   .appstore_icons{
-    margin: 0 30px 0 0;
-    width: 160px;
-    background: #FFFFFF;
-    border: 1px solid #767676;
-    border-radius: 12px;
-    padding: 7px 10px;
+    margin: 0 20px 0 0;
+
   }
 
   .appstore_icons a img{
     display: block;
     margin: auto;
-    width: 100%;
+    
   }
 
   .footerlogo{
@@ -175,11 +171,9 @@ color: #FFFFFF;
   }
 
   .lg-footer-title .stores .appstore_icons{
-   width: 203.08px;
-   height: 64px;
    display: flex;
    justify-content: center;
-   padding:  10px 20px;
+
   }
 
   .lg-footer-title .stores .appstore_icons a img{
@@ -238,14 +232,14 @@ export default function Footer() {
 
         <div className="stores">
   <div className="appstore_icons">
-   <a href="#google"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/footer_g_play_oydrjs.png" alt="appstore icon"/></a> 
+   <a href="#google"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/google_play_cylzg0.svg" alt="appstore icon"/></a> 
   </div>
   <div className="appstore_icons">
-  <a href="#apple"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/appstore_pnip5c.png" alt="appstore icon"/></a>
+  <a href="#apple"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/appstore_o2hrwn.svg" alt="appstore icon"/></a>
   </div>
   </div>
 
-  <img className='footerlogo' src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/footer_logo_fbwr98.png" alt="carpadi logo"/>
+  <img className='footerlogo' src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/footer_carpadi_white_logo_ekoy02.svg" alt="carpadi logo"/>
   <div className="contact">
       <h6>Contact</h6>
       <p><a href='mailto: support@capadi.com'>{email}</a></p>
@@ -258,10 +252,10 @@ export default function Footer() {
   <div className="social">
       <h6>Social</h6>
       <div className='social-icons'>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/fb_icon_wnyupl.png" alt="facebook" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/twitter_icon_ng36kw.png" alt="twitter" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/insta_icon_tgl28n.png" alt="insta" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/linkedin_icon_bfoosj.png" alt="linkedin" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/fb_icon_zqtjvp.svg" alt="facebook" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753370/carpadi-website/twitter_icon_olgcdv.svg" alt="twitter" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753367/carpadi-website/ig_icon_kuk0kn.svg" alt="insta" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753367/carpadi-website/linkedin_icon_dmyucx.svg" alt="linkedin" /></a>
       </div>
   </div>
   <div className='policy'>
@@ -282,17 +276,17 @@ export default function Footer() {
 
 <div className="stores">
 <div className="appstore_icons">
-   <a href="#google"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/footer_g_play_oydrjs.png" alt="appstore icon"/></a> 
+   <a href="#google"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/google_play_cylzg0.svg" alt="appstore icon"/></a> 
   </div>
   <div className="appstore_icons">
-  <a href="#apple"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/appstore_pnip5c.png" alt="appstore icon"/></a>
+  <a href="#apple"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/appstore_o2hrwn.svg" alt="appstore icon"/></a>
   </div>
 </div>
 </div>
 
 <div className='flex-contacts'>
   <div>
-  <img className='footerlogo' src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/footer_logo_fbwr98.png" alt="carpadi logo"/>
+  <img className='footerlogo' src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/footer_carpadi_white_logo_ekoy02.svg" alt="carpadi logo"/>
   </div>
 
 <div className='contacts'>
@@ -308,11 +302,11 @@ export default function Footer() {
   <div className="social">
     <h6>Social</h6>
     <div className='social-icons'>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/fb_icon_wnyupl.png" alt="facebook" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/twitter_icon_ng36kw.png" alt="twitter" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/insta_icon_tgl28n.png" alt="insta" /></a>
-    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/linkedin_icon_bfoosj.png" alt="linkedin" /></a>
-    </div>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/fb_icon_zqtjvp.svg" alt="facebook" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753370/carpadi-website/twitter_icon_olgcdv.svg" alt="twitter" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753367/carpadi-website/ig_icon_kuk0kn.svg" alt="insta" /></a>
+    <a href="#link"><img src="https://res.cloudinary.com/grootretro/image/upload/v1646753367/carpadi-website/linkedin_icon_dmyucx.svg" alt="linkedin" /></a>
+      </div>
   </div>
 
   

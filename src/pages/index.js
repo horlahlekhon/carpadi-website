@@ -117,11 +117,9 @@ export default function Home({data}) {
   .appstore_icons img{
     display: block;
     margin: auto;
-    margin: 0 20px 0 0;
-    width: 122px;
+    width: 144px;
+
     background: #FFFFFF;
-    border: 1px solid #767676;
-    border-radius: 10px;
     padding: 5px 10px;
   }
 
@@ -144,9 +142,8 @@ export default function Home({data}) {
     }
 
     .appstore_icons img{
-      width: 165px;
-      height: 50px;
-      margin: 20px 20px 30px 0;
+      margin: 20px 0 30px ;
+      width:auto;
     }
 
 
@@ -160,7 +157,7 @@ export default function Home({data}) {
   position: relative;
   margin: 40px 0;
   background: rgba(239, 242, 249, 0.33);
-  background-image:url('https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/cool_design_desktop_zjfggm.png');
+  background-image:url('https://res.cloudinary.com/grootretro/image/upload/v1646753368/carpadi-website/cool_pattern_hero_vzd001.svg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 560px;
@@ -242,7 +239,7 @@ line-height: 14px;
 
   .offers .offers-item img{
     display: block;
-    margin: auto;
+    margin: 0 auto 10px;
   }
 
   .offers .offers-item h6{
@@ -437,23 +434,24 @@ return (
   <div className="stores">
   <div className="appstore_icons">
     <a href="#playstore">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/playstore_zmq9gi.png" alt="appstore icon"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/google_play_cylzg0.svg" alt="google icon"/>
     </a>
   </div>
   <div className="appstore_icons">
     <a href="#appstore">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/appstore_pnip5c.png" alt="appstore icon"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/appstore_o2hrwn.svg" alt="appstore icon"/>
     </a>
   </div>
   </div>
   </ExtraIncome>
-  <FirstPhoneAd>
 
- <img className="phone-over" src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/phone_photo_nisxvm.png" alt="iphone"/>
+  <FirstPhoneAd>
+ <img className="phone-over" src="https://res.cloudinary.com/grootretro/image/upload/v1646764903/carpadi-website/phone_hero_mcb1yb.svg" alt="iphone"/>
   </FirstPhoneAd>
+
   <TradeCars>
   <p>Trade Nigerian-used cars, such as</p>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244421/carpadi-website/car_group_hg80xn.png" alt="car brands"/>
+  <img src="https://res.cloudinary.com/grootretro/image/upload/w_315,h_91/v1646753365/carpadi-website/car_group_hero_vlorb1.png" alt="car brands"/>
 
   </TradeCars>
   <Stocks>
@@ -464,40 +462,46 @@ return (
 
 <div className="offers">
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244421/carpadi-website/car_icon_ftfhxd.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753364/carpadi-website/car_icon_a0iaf8.png" alt="offers_icon"/>
  <h6>{unlimitedText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/smile_emoji_b0cy5m.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753370/carpadi-website/smiley_emoji_ohg0av.png" alt="offers_icon"/>
  <h6>{capitalText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244429/carpadi-website/wallet_icon_xkmgmm.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753371/carpadi-website/wallet_icon_fg1vos.png" alt="offers_icon"/>
  <h6>{sweatText}</h6>
 </div>
 
 </div>
   </Stocks>
   <div style={{width: '100%', margin: '0 auto'}}>
-  <h2 style={{fontWeight: '600',
-    textTransform: 'uppercase',
-    margin: '40px auto 20px',
-    fontSize: '16px',
-    lineHeight: '19px',
-    textAlign: 'center',
-color: '#424F65'}}>How it works</h2>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244422/carpadi-website/car_listing_x1qrfm.png"  headerText={carListingTitle} pText={carListingContent}/>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/share_fyijba.png" headerText={shareTitle} pText={shareContent}/>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/earn_fvgqal.png"  headerText={earnTitle} pText={earnContent}/>
+  <h2 style={{fontWeight: '900',
+    margin: '40px 20px 20px',
+    fontSize: '32px',
+    lineHeight: '38px',
+    textAlign: 'left',
+    color: '#56A0D7',
+    background: '#E7F4FB',
+    borderRadius: "12px",
+    padding: '40px 20px',
+}}>Reimagining <br />
+                  car trading</h2>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830149/carpadi-website/car_listing_oagupv.png"  headerText={carListingTitle} pText={carListingContent}/>
+  <div style={{backgroundColor: '#BCFFDB'}}>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830151/carpadi-website/share_p6fjff.png" headerText={shareTitle} pText={shareContent}/>
+  </div>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830150/carpadi-website/earn_iucvky.png"  headerText={earnTitle} pText={earnContent}/>
   </div>
 
 <div style={{padding: '20px 40px'}}>
   <PassiveIncome>
     <h3>{passiveIncome}</h3>
     <div className="img-right">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/mask-group_vkq02y.png" alt="people talking"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/w_249,h_174/v1646753369/carpadi-website/people_talking_sflpkw.png" alt="people talking"/>
     </div>
     
   </PassiveIncome>
@@ -506,19 +510,19 @@ color: '#424F65'}}>How it works</h2>
 <EarlyAdopters>
    <h2>{reviewHeader}</h2>
    <div className="scroll-reviews">
-   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/jane_review_gozvj1.png" userName={firstReviewUserName} userComment={firstReviewComment}/>
+   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646752864/carpadi-website/jane_review_w35az8.png" userName={firstReviewUserName} userComment={firstReviewComment}/>
    <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/antony_review_vlsq9u.png" userName={secondReviewUserName} userComment={secondReviewComment}/>
    <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/alex_review_h4axgw.png" userName={thirdReviewUserName} userComment={thirdReviewComment}/>
-   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/doon_review_vzv4x4.png" userName={fourthReviewUserName} userComment={fourthReviewComment}/>
+   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646752854/carpadi-website/doon_review_lyszrn.png" userName={fourthReviewUserName} userComment={fourthReviewComment}/>
    </div>
 </EarlyAdopters>
 
 <CarCompanies>
-<img src="https://res.cloudinary.com/grootretro/image/upload/v1646244421/carpadi-website/car_group_hg80xn.png" alt="car brands"/>
+<img src="https://res.cloudinary.com/grootretro/image/upload/w_315,h_91/v1646753365/carpadi-website/car_group_hero_vlorb1.png" alt="car brands"/>
 </CarCompanies>
 
 <Secure>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/shield_icon_rln24i.png" alt="shield"/>
+  <img src="https://res.cloudinary.com/grootretro/image/upload/w_40,h_40/v1646753369/carpadi-website/shield_icon_mkiw7q.png" alt="shield"/>
   <h2>{secureHeader}</h2>
   <p>{secureBody}</p>
 </Secure>
@@ -550,19 +554,19 @@ color: '#424F65'}}>How it works</h2>
     <div className="stores">
   <div className="appstore_icons">
     <a href="#playstore">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/playstore_zmq9gi.png" alt="appstore icon"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753366/carpadi-website/google_play_cylzg0.svg" alt="google icon"/>
     </a>
   </div>
   <div className="appstore_icons">
     <a href="#appstore">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/appstore_pnip5c.png" alt="appstore icon"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/appstore_o2hrwn.svg" alt="appstore icon"/>
     </a>
   </div>
   </div>
   </ExtraIncome>
   <TradeCars>
   <p>Trade Nigerian-used cars, such as</p>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244422/carpadi-website/desktop_car_group_udtxan.png" alt="car brands"/>
+  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753365/carpadi-website/car_group_hero_vlorb1.svg" alt="car brands"/>
 
   </TradeCars>
     </Col>
@@ -571,7 +575,7 @@ color: '#424F65'}}>How it works</h2>
   <Col style={{padding: '0'}}>
     <FirstPhoneAd>
 
- <img className="phone-over" src="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/desktop_phone_yb29ic.png" alt="iphone"/>
+ <img className="phone-over" src="https://res.cloudinary.com/grootretro/image/upload/v1646764903/carpadi-website/desktop_phone_hero_xtzn7j.svg" alt="iphone"/>
   </FirstPhoneAd>
     </Col>
   </Row>
@@ -584,17 +588,17 @@ color: '#424F65'}}>How it works</h2>
 
 <div className="offers">
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244423/carpadi-website/desktop_car_icon_metqr7.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/car_icon_a0iaf8.svg" alt="offers_icon"/>
  <h6>{unlimitedText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/desktop_smile_emoji_kkbin2.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753370/carpadi-website/smiley_emoji_ohg0av.svg" alt="offers_icon"/>
  <h6>{capitalText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/desktop_wallet_icon_newyol.png" alt="offers_icon"/>
+ <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753371/carpadi-website/wallet_icon_fg1vos.svg" alt="offers_icon"/>
  <h6>{sweatText}</h6>
 </div>
 
@@ -602,16 +606,20 @@ color: '#424F65'}}>How it works</h2>
   </Stocks>
 
   <div style={{width: '100%', margin: '0 auto'}}>
-  <h2 style={{fontWeight: '600',
-    textTransform: 'uppercase',
-    margin: '40px 0 20px',
-  fontSize: '28px',
-  lineHeight: '33px',
-  textAlign: 'center',
-color: '#424F65'}}>How it works</h2>
+  <h2 style={{fontWeight: '900',
+    margin: '40px 40px 20px',
+    fontSize: '56px',
+    lineHeight: '66px',
+    textAlign: 'left',
+    color: '#56A0D7',
+    background: '#E7F4FB',
+    borderRadius: "12px",
+    padding: '40px 30px',
+}}>Reimagining <br />
+                  car trading</h2>
 
 <Instruction 
-DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/desktop_car_listing_i10ikk.png" 
+DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830147/carpadi-website/desktop_car_listing_kse3oo.png" 
 align="left"  
 headerText={carListingTitle} 
 pText={carListingContent} 
@@ -619,8 +627,9 @@ Parapadding="20px 185px 0 0"
 HeaderPadding="0 100px 0 0"
 />
 
+<div style={{backgroundColor: '#BCFFDB'}}>
 <Instruction 
-DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/desktop_share_uhh5jf.png"
+DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830148/carpadi-website/desktop_share_allgbm.png"
 order="last" 
 HeaderPadding="0" 
 align="right"  
@@ -628,7 +637,7 @@ Parapadding="20px 0 0 185px"
 headerText={shareTitle} 
 pText={shareContent}
 />
-
+</div>
 
   <div style={{
           height: '766px',
@@ -637,7 +646,7 @@ pText={shareContent}
           margin: '40px',
 }}>
   <Instruction  
-  DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646244453/carpadi-website/desktop_earn_g3mimv.png"
+  DesktopImageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830149/carpadi-website/desktop_earn_h1363u.png"
   align="left" 
   HeaderPadding="0 100px 0 0" 
   Parapadding="20px 120px 0 0" 
@@ -652,7 +661,7 @@ pText={shareContent}
   <div style={{padding: '20px 40px'}}>
   <PassiveIncome>
     <div className="desktop-passive-income">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/desktop_mask-group_kfzvhm.png" alt="people talking"/>
+    <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753369/carpadi-website/people_talking_sflpkw.svg" alt="people talking"/>
     <h3>{passiveIncome}</h3>
     </div>
     
@@ -661,20 +670,20 @@ pText={shareContent}
 
   <EarlyAdopters>
   <h2>{reviewHeader}</h2>
-   <div className="scroll-reviews">
-   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244426/carpadi-website/jane_review_gozvj1.png" userName={firstReviewUserName} userComment={firstReviewComment}/>
+  <div className="scroll-reviews">
+   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646752864/carpadi-website/jane_review_w35az8.png" userName={firstReviewUserName} userComment={firstReviewComment}/>
    <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/antony_review_vlsq9u.png" userName={secondReviewUserName} userComment={secondReviewComment}/>
    <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244420/carpadi-website/alex_review_h4axgw.png" userName={thirdReviewUserName} userComment={thirdReviewComment}/>
-   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646244425/carpadi-website/doon_review_vzv4x4.png" userName={fourthReviewUserName} userComment={fourthReviewComment}/>
+   <Review userImg="https://res.cloudinary.com/grootretro/image/upload/v1646752854/carpadi-website/doon_review_lyszrn.png" userName={fourthReviewUserName} userComment={fourthReviewComment}/>
    </div>
 </EarlyAdopters>
 
 <CarCompanies>
-<img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/other_car_group_jdkeo0.png" alt="car brands"/>
+<img src="https://res.cloudinary.com/grootretro/image/upload/v1646753365/carpadi-website/car_group_below_kfjgq7.svg" alt="car brands"/>
 </CarCompanies>
 
 <Secure>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646244424/carpadi-website/desktop_shield_icon_jugnkz.png" alt="shield"/>
+  <img src="https://res.cloudinary.com/grootretro/image/upload/v1646753369/carpadi-website/shield_icon_mkiw7q.svg" alt="shield"/>
   <h2>{desktopSecureHeader}</h2>
   <p>{secureBody}</p>
 </Secure>

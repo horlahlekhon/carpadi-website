@@ -213,7 +213,7 @@ Asked Questions
 <form style={SearchForm}>
 <input type="text" name="search" style={MobileSearchInput} placeholder="Search for a question"/>
 <div style={Search}>
-<img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/search_icon_y3bxtz.png" alt="search icon"/>
+<img src="https://res.cloudinary.com/grootretro/image/upload/v1646752882/carpadi-website/search_icon_pgeaby.png" alt="search icon"/>
 </div>
 </form>
 <div>
@@ -276,7 +276,7 @@ Asked Questions
 <form style={DesktopSearchForm}>
 <input type="text" name="search" style={MobileSearchInput} placeholder="Search for a question"/>
 <div  style={Search}>
-<img src="https://res.cloudinary.com/grootretro/image/upload/v1646244427/carpadi-website/search_icon_y3bxtz.png" alt="search icon"/>
+<img src="https://res.cloudinary.com/grootretro/image/upload/v1646752882/carpadi-website/search_icon_pgeaby.png" alt="search icon"/>
 </div>
 </form>
 <div>

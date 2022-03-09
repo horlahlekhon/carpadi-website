@@ -45,7 +45,7 @@ export default function Review({userName, userComment, userImg}) {
   return (
     <ReviewDiv>
         <img className='profile-pic' src={userImg} alt="review"/>
-        <img className='stars-rating' src="https://res.cloudinary.com/grootretro/image/upload/v1646244428/carpadi-website/stars_dyjntq.png" alt="stars icon" />
+        <img className='stars-rating' src="https://res.cloudinary.com/grootretro/image/upload/v1646753370/carpadi-website/star_rating_y3ynyi.svg" alt="stars icon" />
         <h1>{userName}</h1>
         <p>{userComment}</p>
 
