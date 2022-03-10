@@ -17,6 +17,7 @@ export default function Instruction({headerText, pText, order, Parapadding, Head
           display: block;
           margin: 0 auto;
           filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.04));
+          width: 100%;
         }
 
         h2{
