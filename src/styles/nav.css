@@ -58,10 +58,11 @@
     cursor: pointer;
 
   }
-  .navigation-links .mobile-menu:focus {
- outline: none;
-  }
 
+
+  .navigation-links .mobile-menu:focus {
+    outline: none;
+  }
 
   .navigation-links  img{
   display: block;

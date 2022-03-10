@@ -39,6 +39,7 @@ export default function SuccessAlert({closeAlert}) {
    .close-icon-div button{
        background: transparent;
        border: none;
+       width:100%;
    }
 
    .close-icon-div img{

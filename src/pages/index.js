@@ -490,11 +490,11 @@ return (
     padding: '40px 20px',
 }}>Reimagining <br />
                   car trading</h2>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830149/carpadi-website/car_listing_oagupv.png"  headerText={carListingTitle} pText={carListingContent}/>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/w_319,h_485/v1646753407/carpadi-website/listing_mnqtzg.png"  headerText={carListingTitle} pText={carListingContent}/>
   <div style={{backgroundColor: '#BCFFDB'}}>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830151/carpadi-website/share_p6fjff.png" headerText={shareTitle} pText={shareContent}/>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/w_319,h_485/v1646904047/carpadi-website/share_lr9a5o.png" headerText={shareTitle} pText={shareContent}/>
   </div>
-  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/v1646830150/carpadi-website/earn_iucvky.png"  headerText={earnTitle} pText={earnContent}/>
+  <Instruction imageSource="https://res.cloudinary.com/grootretro/image/upload/w_319,h_485/v1646904047/carpadi-website/earn_dfjszv.png"  headerText={earnTitle} pText={earnContent}/>
   </div>
 
 <div style={{padding: '20px 40px'}}>
