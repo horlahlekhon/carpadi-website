@@ -165,7 +165,7 @@ function Waitlist({handleClick}) {
 
 <div className='waitlist-main'>
 <div className='waitlist-info'>
- <img src="https://res.cloudinary.com/grootretro/image/upload/w_55,h_57/v1646753369/carpadi-website/message-icon_yzemgw.png" alt="message" />
+ <img style={{width: '55px', height: '57px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753369/carpadi-website/message-icon_yzemgw.png" alt="message" />
  <h2>Join Our Waitlist</h2>
  <p>Get informed once we’re live</p>
 </div>

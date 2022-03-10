@@ -451,7 +451,7 @@ return (
 
   <TradeCars>
   <p>Trade Nigerian-used cars, such as</p>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/w_315,h_91/v1646753365/carpadi-website/car_group_hero_vlorb1.png" alt="car brands"/>
+  <img style={{width: '315px', height:'91px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753365/carpadi-website/car_group_hero_vlorb1.svg" alt="car brands"/>
 
   </TradeCars>
   <Stocks>
@@ -462,17 +462,17 @@ return (
 
 <div className="offers">
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753364/carpadi-website/car_icon_a0iaf8.png" alt="offers_icon"/>
+ <img style={{width:'28px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/car_icon_a0iaf8.svg" alt="offers_icon"/>
  <h6>{unlimitedText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753370/carpadi-website/smiley_emoji_ohg0av.png" alt="offers_icon"/>
+ <img style={{width:'28px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753370/carpadi-website/smiley_emoji_ohg0av.svg" alt="offers_icon"/>
  <h6>{capitalText}</h6>
 </div>
 
  <div className="offers-item">
- <img src="https://res.cloudinary.com/grootretro/image/upload/w_28,h_28/v1646753371/carpadi-website/wallet_icon_fg1vos.png" alt="offers_icon"/>
+ <img style={{width:'28px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753371/carpadi-website/wallet_icon_fg1vos.svg" alt="offers_icon"/>
  <h6>{sweatText}</h6>
 </div>
 
@@ -501,7 +501,7 @@ return (
   <PassiveIncome>
     <h3>{passiveIncome}</h3>
     <div className="img-right">
-    <img src="https://res.cloudinary.com/grootretro/image/upload/w_249,h_174/v1646753369/carpadi-website/people_talking_sflpkw.png" alt="people talking"/>
+    <img style={{width: '249px', height: '174px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753369/carpadi-website/people_talking_sflpkw.svg" alt="people talking"/>
     </div>
     
   </PassiveIncome>
@@ -518,11 +518,11 @@ return (
 </EarlyAdopters>
 
 <CarCompanies>
-<img src="https://res.cloudinary.com/grootretro/image/upload/w_315,h_91/v1646753365/carpadi-website/car_group_hero_vlorb1.png" alt="car brands"/>
+<img style={{width: '315px', height:'91px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753365/carpadi-website/car_group_hero_vlorb1.svg" alt="car brands"/>
 </CarCompanies>
 
 <Secure>
-  <img src="https://res.cloudinary.com/grootretro/image/upload/w_40,h_40/v1646753369/carpadi-website/shield_icon_mkiw7q.png" alt="shield"/>
+  <img style={{width: '40px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753369/carpadi-website/shield_icon_mkiw7q.svg" alt="shield"/>
   <h2>{secureHeader}</h2>
   <p>{secureBody}</p>
 </Secure>
