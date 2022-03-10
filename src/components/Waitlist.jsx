@@ -10,9 +10,10 @@ padding: 0 0 0 20px;
 margin: 50px auto;
 width: 90%;
 height: 505px;
-background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646830147/carpadi-website/bent_iphone_qhpws8.png');
+background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646904049/carpadi-website/waitlist_mockup_w0rdt7.png');
 background-repeat: no-repeat;
 background-position: right top;
+background-size: 85%;
 
 
 .waitlist-main{
