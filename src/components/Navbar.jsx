@@ -37,7 +37,7 @@ function Navbar() {
             <div className="navigation-header">
               <span className="navigation-names">
                 <Anchor className="link" to="/">
-                  <img className="logo d-block d-lg-none" src="https://res.cloudinary.com/grootretro/image/upload/w_123,h_46/v1646753364/carpadi-website/carpadi_logo_rokoey.png" alt="carpadi_logo"></img>
+                  <img className="logo d-block d-lg-none" style={{width:'123px', height: '46px'}} src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/carpadi_logo_rokoey.svg" alt="carpadi_logo"></img>
                   <img className="logo d-none d-lg-block" src="https://res.cloudinary.com/grootretro/image/upload/v1646753364/carpadi-website/carpadi_logo_rokoey.svg" alt="carpadi_logo"></img>
                 </Anchor>
               </span>
