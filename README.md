@@ -8,7 +8,7 @@
   Carpadi Landing Site
 </h1>
 
-<h3>Carpadi is a car trading application where buy a portion of a car 🏎️🏎️ listed and when sold y😯u earn a profit for  your investment</h3>
+<h3>Carpadi is a car trading application where buy a portion of a car 🏎️🏎️ listed and when sold y😯u earn a profit from  your investment</h3>
 
 <p>Isn't that amazing!! 😃, it is to me!</p>
 
