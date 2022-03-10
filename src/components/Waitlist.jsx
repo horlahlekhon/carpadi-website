@@ -89,12 +89,16 @@ cursor: pointer;
 
 }
 
+@media (min-width: 500px){
+  background-size: 60%;
+}
+
 @media (min-width: 992px){
   width: 90%;
   height: 378px;
   margin: 50px auto;
   background-image: url('https://res.cloudinary.com/grootretro/image/upload/v1646830149/carpadi-website/desktop_bent_iphone_sh2bcg.png');
-
+ background-size: auto;
 
   .waitlist-main{
     position: relative;
