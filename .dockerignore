@@ -1,0 +1,14 @@
+node_modules
+.next
+
+.husky
+.git
+.eslint*
+.prettier*
+.git*
+.vscode
+README.md
+Dockerfile*
+docker-compose.yml
+public
+.cache

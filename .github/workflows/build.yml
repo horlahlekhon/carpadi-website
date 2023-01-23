@@ -1,0 +1,83 @@
+on:
+  push:
+    branches:
+      - main
+name: Deploy to staging
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Lint
+        uses: lgeiger/black-action@master
+        with:
+          args: "src --check"
+
+  build:
+    name: build and push image
+    runs-on: ubuntu-20.04
+    needs: lint
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+          cache: "yarn"
+      - name: Get next version
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 15
+          max_attempts: 2
+          # retry_on: error
+          command: |
+            yarn install
+            npx semantic-release --dry-run
+            cat ./artifacts/.VERSION >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Docker Build & Push to Container Registry
+        run: |          
+          echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+          docker build --no-cache -t olalekanadebari/carpadi-website:$NEXT_VERSION -t olalekanadebari/carpadi-website:latest .
+          docker image push --all-tags  olalekanadebari/carpadi-website
+          docker logout
+        env:
+          NEXT_VERSION: ${{  env.NEXT_VERSION }}
+
+      - name: Release
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 15
+          max_attempts: 2
+          # retry_on: error
+          command: |
+            # yarn install
+            npx semantic-release
+            cat ./artifacts/.VERSION
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+
+      - name: Deploy image to server
+        uses: appleboy/ssh-action@master
+        env:
+          IMAGE_NAME: olalekanadebari/carpadi-website:latest
+          IMAGE_TAG: ${NEXT_VERSION}
+          CONTAINER_NAME: "carpadi-website"
+        with:
+          host: ${{ secrets.SSH_STAGING_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASS }}
+#          key: ${{secrets.SSH_PEM}}
+          port: ${{ secrets.SSH_PORT }}
+          envs: IMAGE_NAME,IMAGE_TAG,CONTAINER_NAME
+          script: |
+              docker rm -f website
+              docker run -d --name website -p 8800:80 olalekanadebari/carpadi-website:latest
