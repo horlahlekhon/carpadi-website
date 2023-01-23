@@ -22,9 +22,9 @@ module.exports = {
     {
       resolve: `gatsby-source-cloudinary`,
       options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        cloudName: "grootretro",
+        apiKey: "297813253687341",
+        apiSecret: "A_IlqhvQ4DtmzkupP9rwCshavTo",
         resourceType: `image`,
         prefix: `carpadi-website/` ,
         maxResults: 100
