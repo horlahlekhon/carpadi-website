@@ -1,4 +1,4 @@
-FROM node:18-alpine AS build
+FROM node:18 AS build
 
 WORKDIR /app
 COPY . .
@@ -6,7 +6,7 @@ COPY . .
 RUN yarn
 RUN yarn build
 
-FROM nginx:1.18-alpine AS deploy
+FROM nginx:1.18 AS deploy
 
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
