@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "carpadi-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "tranding website for the carpadi platform",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -45,7 +45,7 @@
     "file-loader": "^6.2.0",
     "prettier": "^2.5.1",
     "url-loader": "^4.1.1",
-    
+
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/exec": "^5.0.0",
@@ -55,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/horlahlekhon/carpadi-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/horlahlekhon/carpadi-website/issues"
   }
 }
