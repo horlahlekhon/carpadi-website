@@ -16,3 +16,6 @@ ENV CLOUDINARY_API_KEY=297813253687341
 ENV CLOUDINARY_API_SECRET=A_IlqhvQ4DtmzkupP9rwCshavTo
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
+
+
+# jksosdlfjl
