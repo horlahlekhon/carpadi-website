@@ -11,10 +11,9 @@ import SuccessAlert from '../components/SuccessAlert';
 export default function Faq() {
 
   const [openAlert, setOpenAlert] = useState(false)
-  const [email, setEmail] = useState(null)
+  
 
   const handleClick = () => {
-    
     setOpenAlert(true);
   };
 
