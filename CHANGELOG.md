@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/horlahlekhon/carpadi-website/compare/v1.0.0...v1.1.0) (2023-04-10)
+
+
+### Features
+
+* add faq ([83595fb](https://github.com/horlahlekhon/carpadi-website/commit/83595fb7526b385968df80efa84e5699f9277bd7))
+* add faq ([9148dfc](https://github.com/horlahlekhon/carpadi-website/commit/9148dfcb62b08b0d6d02d89cb9569cb1a102ac69))
+
 # 1.0.0 (2023-01-23)
 
 
