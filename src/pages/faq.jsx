@@ -11,8 +11,10 @@ import SuccessAlert from '../components/SuccessAlert';
 export default function Faq() {
 
   const [openAlert, setOpenAlert] = useState(false)
+  const [email, setEmail] = useState(null)
 
   const handleClick = () => {
+    
     setOpenAlert(true);
   };
 
@@ -33,73 +35,73 @@ export default function Faq() {
   const AccordionIteration = [
     {
       'id': 1,
-      'header': 'Do I need to pay to Instapay even when there is no transaction going on in my business?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'What is Carpadi?',
+      'title': 'What is Carpadi?',
+      'paraone': 'Carpadi is a Locally-used car trading platform, that gives users access to profit from car sales via collaborative investments.',
+      // 'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
     },
     {
       'id': 2,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How does the investment work?',
+      'title': 'How does the investment work?',
+      'paraone': 'Our platform operates on a crowdfunding model where multiple investors pool their money together to purchase a vehicle.',
+      'paratwo': 'The car is then put in perfect shape and displayed for sale on our car selling platform and the profits are distributed among the investors based on their percentage of ownership.'
     },
     {
       'id': 3,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How do I join the platform?',
+      'title': 'How do I join the platform?',
+      'paraone': 'You can sign up on our mobile by providing your personal details and agreeing to our terms and conditions',
+      'paratwo': 'Once registered, you can browse available investment opportunities and choose the car(s) you want to invest in.'
     },
     {
       'id': 4,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'Is there a minimum investment amount?',
+      'title': 'Is there a minimum investment amount?',
+      'paraone': 'Yes, the minimum investment amount is 500,000 Naira. This is to ensure that each investor has a meaningful ownership stake in the car.'
     },
     {
       'id': 5,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How do I know my investment is safe?',
+      'title': 'How do I know my investment is safe?',
+      'paraone': 'We take the security of our investors money very seriously. All funds are held in a secure escrow account until the full amount required to purchase the car is reached.',
+      'paratwo': 'Additionally, we only invest in high-quality vehicles that are in good condition and have a proven track record of being profitable in the Nigerian-used car industry'
     },
     {
       'id': 6,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'What happens if the car is damaged or involved in an accident?',
+      'title': 'What happens if the car is damaged or involved in an accident?',
+      'paraone': 'We have comprehensive insurance coverage for all vehicles in our portfolio. If a car is damaged or involved in an accident, our insurance will cover the costs of repair or replacement.'
     },
     {
       'id': 7,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How long does deposit takes to reflect?',
+      'title': 'How long does deposit takes to reflect?',
+      'paraone': 'Deposits typically reflects instantly, however it make take up to an hour.'
     },
     {
       'id': 8,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How do i deposit money?',
+      'title': 'How do i deposit money?',
+      'paraone': 'You can deposit money using any Nigerian Naira debit card.'
     },
     {
       'id': 9,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How do Carpadi make money ?',
+      'title': 'How do Carpadi make money ?',
+      'paraone': 'Carpadi make money via commissions on the profits made by the investors after the car has been sold.'},
+    {
+      'id': 10,
+      'header': 'How does withdrawal work?',
+      'title': 'How does withdrawal work?',
+      'paraone': 'Money invested in cars cannot be withdrawn until the car is sold, after sale it takes two business days for transactions to be settled and the funds from sale including the capital to become available for withdrawal to any local bank.'
     },
     {
       'id': 10,
-      'header': 'What platforms does Instapay payment gateway support?',
-      'title': 'What is a Payment Gateway?',
-      'paraone': 'A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players.',
-      'paratwo': 'Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.'
+      'header': 'How are profits distributed?',
+      'title': 'How are profits distributed?',
+      'paraone': "Profits are distributed once the car is sold based on each investor's percentage of ownership in the car. You can choose to have your profits reinvested or paid out to your bank account.",
+      'paratwo': 'If you have any other questions, please do not hesitate to contact our customer support team. We are here to help!'
     },
   ]
 

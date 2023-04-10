@@ -164,7 +164,7 @@ line-height: 24px;
 
 function Waitlist({handleClick}) {
 
-
+  const [email, setEmail] = useState(null)
   return (
     <WaitlistDiv id="waitlist">
 
@@ -175,7 +175,7 @@ function Waitlist({handleClick}) {
  <p>Get informed once we’re live</p>
 </div>
 <div className='waitlist-form'>
-    <input name='email' placeholder='Enter your email address' />
+    <input name='email' placeholder='Enter your email address' value={email ? email: ""} />
     <button onClick={() => handleClick()}>Join Waitlist</button>
 </div>
 </div>
