@@ -80,4 +80,5 @@ jobs:
           envs: IMAGE_NAME,IMAGE_TAG,CONTAINER_NAME
           script: |
               docker rm -f website
+              docker image rm -f olalekanadebari/carpadi-website:latest
               docker run -d --name website -p 8800:80 olalekanadebari/carpadi-website:latest
