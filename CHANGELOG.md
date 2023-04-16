@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/horlahlekhon/carpadi-website/compare/v1.2.0...v1.2.1) (2023-04-16)
+
+
+### Bug Fixes
+
+* added waitlist ([659ab84](https://github.com/horlahlekhon/carpadi-website/commit/659ab844e0e6203c852f9397c170c4b555572889))
+
 # [1.2.0](https://github.com/horlahlekhon/carpadi-website/compare/v1.1.0...v1.2.0) (2023-04-11)
 
 
