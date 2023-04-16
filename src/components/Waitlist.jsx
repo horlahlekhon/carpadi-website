@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 
 const WaitlistDiv = styled.div`
@@ -164,6 +164,27 @@ line-height: 24px;
 
 function Waitlist({handleClick}) {
 
+  const emailRef = useRef()
+  const [email, setEmail] = useState(null)
+
+  const clickHandle = () => {
+    setEmail(emailRef.current.value)
+  }
+
+  useEffect(() => {
+    if(email){
+      const options = {method: 'POST'};
+      fetch(`https://api.carpadi.com/api/v1/admins/users/join-waitlist/?email=${email}`, options)
+      .then((response) => {
+        console.debug(response)
+        handleClick()
+        setEmail(null)
+        emailRef.current.value = null
+      })
+      }
+    }
+  )
+
 
   return (
     <WaitlistDiv id="waitlist">
@@ -175,8 +196,8 @@ function Waitlist({handleClick}) {
  <p>Get informed once we’re live</p>
 </div>
 <div className='waitlist-form'>
-    <input name='email' placeholder='Enter your email address' />
-    <button onClick={() => handleClick()}>Join Waitlist</button>
+    <input name='email' placeholder='Enter your email address' ref={emailRef} />
+    <button onClick={() => clickHandle()} disabled={!!email}>Join Waitlist</button>
 </div>
 </div>
     </WaitlistDiv>

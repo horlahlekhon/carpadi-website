@@ -16,6 +16,7 @@ export default function Home({data}) {
 
   const handleClick = () => {
     setOpenAlert(true);
+    console.log("clicked");
   };
 
   const closeAlert = () => {
